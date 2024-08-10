@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Belle_Vue_Core\Belle_Vue_Core.csproj" />
+    <ProjectReference Include="..\Belle_Vue_DataAccess\Belle_Vue_DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
