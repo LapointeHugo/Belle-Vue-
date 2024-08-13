@@ -30,6 +30,10 @@ body {
   background-color: black;
 }
 
+.icon-hero {
+  padding-bottom: 40px;
+}
+
 .subtitle-hero {
   position: relative;
   color: white;
@@ -54,7 +58,7 @@ body {
 .button-main {
   align-items: center;
   appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #71b0f8 100%);
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #3A82E0 100%);
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -92,7 +96,7 @@ body {
 }
 
 .button-main:active {
-  box-shadow: #5f88aa 0 3px 7px inset;
+  box-shadow: #3A82E0 0 3px 7px inset;
   transform: translateY(2px);
 }
 
@@ -147,4 +151,58 @@ body {
 
 .about {
   background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.icon-about {
+  color: #3A82E0;
+  padding-bottom: 40px;
+}
+
+.subtitle-about {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1rem;
+  color: #a7a7a7;
+  padding-bottom: 20px;
+}
+
+.title-about {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+}
+
+.col-left-about {
+  padding-top: 40px;
+}
+
+.img-about {
+  border-radius: 25px;
+  filter: drop-shadow(0 0 0.65rem #3A82E0)
+}
+
+.col-right-about {
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.text-about {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1rem;
+  color: #a7a7a7;
+}
+
+.subtitle-about-col {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.hr-about {
+  color: #3A82E0 ;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
