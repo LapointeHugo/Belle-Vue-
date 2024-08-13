@@ -206,3 +206,23 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.quote {
+  background-color: #3A82E0;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.phone-quote, .title-quote {
+  margin-bottom: 0;
+}
+
+.text-quote {
+  padding-left: 30px
+}
