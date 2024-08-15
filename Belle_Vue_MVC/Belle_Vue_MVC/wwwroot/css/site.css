@@ -100,6 +100,7 @@ body {
   transform: translateY(2px);
 }
 
+/* Specific styles for the first carousel only */
 #carouselExampleInterval {
   height: 850px; /* Adjust the carousel height as needed */
   overflow: hidden;
@@ -113,21 +114,21 @@ body {
   object-position: center; /* Center the image within the carousel */
 }
 
-.carousel-inner {
+#carouselExampleInterval .carousel-inner {
   position: relative;
   z-index: 1; /* Ensure carousel images stay in the background */
 }
 
-.carousel-item {
+#carouselExampleInterval .carousel-item {
   transition-duration: 1.5s; /* Adjust the speed of the transition */
   transition-timing-function: ease-in-out; /* Adjust the smoothness */
 }
 
-.carousel-item img {
-  opacity: 0.5;
+#carouselExampleInterval .carousel-item img {
+  opacity: 0.5; /* Apply opacity to images */
 }
 
-.carousel-text-overlay {
+#carouselExampleInterval .carousel-text-overlay {
   position: absolute;
   top: 50%; /* Adjust as needed */
   left: 50%; /* Adjust as needed */
@@ -139,13 +140,13 @@ body {
   pointer-events: none; /* Allows carousel controls to remain clickable */
 }
 
-.carousel-text-overlay .hero-button {
+#carouselExampleInterval .carousel-text-overlay .hero-button {
   pointer-events: auto; /* Enable pointer events for the button */
 }
 
-.carousel-text-overlay h3,
-.carousel-text-overlay h1,
-.carousel-text-overlay .hero-button {
+#carouselExampleInterval .carousel-text-overlay h3,
+#carouselExampleInterval .carousel-text-overlay h1,
+#carouselExampleInterval .carousel-text-overlay .hero-button {
     z-index: 3; /* Make sure the text and button are above the images */
 }
 
@@ -225,4 +226,92 @@ body {
 
 .text-quote {
   padding-left: 30px
+}
+
+.services {
+  background-color: #cfe3fd;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.icon-services {
+  color: #3A82E0;
+  padding-bottom: 40px;
+}
+
+.subtitle-services {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1rem;
+  color: #a7a7a7;
+  padding-bottom: 20px;
+}
+
+.title-services {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+}
+
+/* Specific styles for the second carousel only */
+#carouselExampleControls{
+    padding-top: 40px;
+}
+
+#carouselExampleControls .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleControls .card img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+#carouselExampleControls .card {
+  margin: 0 2em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 20px;
+}
+
+#carouselExampleControls .card-body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#carouselExampleControls .card-title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 500;
+}
+
+#carouselExampleControls .card-text {
+  color: #a7a7a7;
+}
+
+#carouselExampleControls .carousel-inner {
+  padding: 1em;
+}
+
+#carouselExampleControls .carousel-control-prev,
+#carouselExampleControls .carousel-control-next {
+  background-color: #3A82E0;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 2em;
+}
+
+#carouselExampleControls .carousel-control-prev {
+  left: -6%; /* Adjust this value to position it further left */
+}
+
+#carouselExampleControls .carousel-control-next {
+  right: -6%; /* Adjust this value to position it further right */
 }
