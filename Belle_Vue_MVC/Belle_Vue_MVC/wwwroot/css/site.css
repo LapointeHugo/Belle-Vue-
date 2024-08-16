@@ -25,6 +25,19 @@ body {
   margin-bottom: 60px;
 }
 
+/* Layout */
+footer {
+  color: white;
+}
+
+.footer-links {
+  background-color: #3A82E0;
+}
+
+.qa-footer {
+  background-color: #7fb6ff;
+}
+
 /* Home Page */
 .hero {
   background-color: black;
@@ -319,6 +332,7 @@ body {
 .team {
   padding-top: 80px;
   padding-bottom: 80px;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .icon-team {
