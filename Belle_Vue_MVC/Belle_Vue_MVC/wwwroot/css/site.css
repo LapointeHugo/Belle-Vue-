@@ -315,3 +315,32 @@ body {
 #carouselExampleControls .carousel-control-next {
   right: -6%; /* Adjust this value to position it further right */
 }
+
+.team {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.icon-team {
+  color: #3A82E0;
+  padding-bottom: 40px;
+}
+
+.subtitle-team {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1rem;
+  color: #a7a7a7;
+  padding-bottom: 20px;
+}
+
+.title-team {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.team-card {
+  border: none;
+}
